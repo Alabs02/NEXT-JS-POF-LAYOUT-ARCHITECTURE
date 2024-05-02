@@ -3,15 +3,14 @@ import React from "react";
 // ANIMATIONS
 import { animation } from "@/animations";
 
-const Home = () => {
+const Messages = () => {
   return (
-    <animation.fade>
+    <animation.slide>
       <div className="min-h-screen grid place-items-center">
-        <h1 className="text-4xl font-bold">Home Page</h1>
+        <h1 className="text-4xl font-bold">Messages Page</h1>
       </div>
-    </animation.fade>
-
+    </animation.slide>
   );
 };
 
-export default Home;
+export default Messages;
